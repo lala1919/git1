@@ -57,7 +57,6 @@ for i in range(10):
 
 
 # 반복문 while : 조건이 충족되는 한 반복
-
 numbers = [1, 2, 3]
 length = len(numbers)
 i = 0
