@@ -52,6 +52,8 @@ list4 = list4 + [3, 4, 5]
 # print(list4)
 # print(list4[4])
 
+list4 += list1
+
 # array 삭제
 list1 = [1,2,3,4,5,6,7,8,9,10]
 del list1[-1] # 인덱스를 찾아서 삭제

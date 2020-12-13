@@ -60,7 +60,9 @@ else:
 
 
 
-# 변수 초기화 : 무조건 해야함
+# 변수 초기화 : 무조건 해야함. 
+# '변수를 선언하고 그 변수를 사용하기 위해서는 변수에 값을 넣어주는과정이 필요하다. 이를 변수 초기화라고 한다.
+# 파이썬은 변수입력하면 자동으로 선언되어 생략가능'
 a = None
 b = None
 c = None
@@ -70,7 +72,7 @@ a = 2
 b = 1
 c = 3
 # camel case : 낙타형 변수지정방법
-firstRankMessage = 'congratulation !'
+firstRankMessage = 'congratulation !' 
 
 if a and b and c:
     if a == 1 and b == 1 and c == 1:

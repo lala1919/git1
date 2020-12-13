@@ -7,13 +7,15 @@ numbers = [1, 2, 3, 4, 5, 6, 7]
 # for j in range(5):
 #     print(j+1)
 
-# 이름 열거하기
-names = ['lee', 'yang', 'kim', 'park']
-for i, name in enumerate(names): # enumerate는 결과값으로 "인덱스, 값" 두개를 리턴한다. 
-    print(i+1,'번째 사람은 '+name+'입니다.')
-
 # 배열 길이 꺼내기
+names = ['lee', 'yang', 'kim', 'park']
 print(len(names))
+
+# 인덱스가 밸류가 되는 배열 임의로 만들기
+a = [0, 1, 2, 3, 4]
+a = range(5) # 위 아래, 둘은 같습니다.
+for i in range(10): # 10번 반복해야하는 일
+    print(i+1,'번 반복했음')
 
 # 배열 길이 꺼내서 그만큼 값 따로 꺼내기
 rainbow = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'purple']
@@ -21,6 +23,11 @@ for i in range(len(rainbow)):
     color = rainbow[i]
     # print(color)
     print('무지개의',i+1,'번째 색은 '+color+'이에요.')
+
+# 이름 열거하기
+names = ['lee', 'yang', 'kim', 'park']
+for i, name in enumerate(names): # enumerate는 결과값으로 "인덱스, 값" 두개를 리턴한다. 
+    print(i+1,'번째 사람은 '+name+'입니다.')
 
 # 이중배열
 numbers = [(1,2),(10,0),(3,3),(5,7)]

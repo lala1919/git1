@@ -38,7 +38,22 @@ a = ((a-5)*3/5) + 2
 print(a)
 print(c,a+b)
 
+# 변수 맞바꾸기
+a=None
+b=None
+a=10
+b=20
+temp =a
+a=b
+b=temp
+print(a,b)
 
+c=None
+d=None
+c=1
+d=2
+c,d=d,c
+print(c,d)
 
 
 # 문자열 변수 : ""안에 입력하며, 문자. 연산불가

@@ -42,7 +42,7 @@ print(a,b)
 random.shuffle(rainbow)
 print(rainbow)
 
-dice = ['1','2','3','4','5','6']
+dice = [1,2,3,4,5,6]
 a = random.choice(dice)
 print (a)
 print ('주사위값은' ,a,'입니다')

@@ -1,5 +1,8 @@
 # [메소드 만들기]
-
+# 함수를 따로 만들어 기능을 만든 다음 필요할 때마다 호출해서 사용한다.
+# 파이썬에서 def 라고 선언해준다. 
+# def 함수명(인수) :
+# 수행문장
 
 
 
@@ -14,8 +17,6 @@ def b_print():
 
 a_print()
 b_print()
-
-
 
 
 
@@ -58,3 +59,9 @@ banolim2(2.2, 2.7)
 
 
 
+def type1(a,b):
+    print(type(a))
+    print(type(b))
+    return b
+v = type1(1, "aa")
+print(v)
